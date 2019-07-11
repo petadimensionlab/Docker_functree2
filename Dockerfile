@@ -10,4 +10,4 @@ RUN apk --update add --no-cache \
 
 COPY functree2_docker.py /tmp
 
-WORKDIR /tmp
+WORKDIR /

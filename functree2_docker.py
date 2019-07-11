@@ -10,7 +10,7 @@ description = '"test memo"' #Description of maximum 50 letters
 modulecoverage = 0 #Compute module coverage = 1
 private = 0 #Keep the result privatev  (Hide from "List of Profiles")= 1
 
-root_file = '/tmp/'
+root_file = '/condir/'
 pro_file = os.path.join(root_file,'profile.tsv')
 profile_id = os.path.join(root_file,'profilr_id.txt')
 
