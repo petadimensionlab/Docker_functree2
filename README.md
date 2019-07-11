@@ -24,3 +24,8 @@ example "profile.tsv"data =  https://bioviz.tokyo/functree2/static/data/example/
 / # python3 tmp/functree2_docker.py
 ```
 Execution result is output to "/yourlocal_dir"
+
+#### exit docker
+```
+/ # exit
+```
