@@ -2,14 +2,14 @@
 docker functree2
 
 ## 1.Usage
-docker pull image
+####docker pull image
 
 ```
-#### docker pull 
+docker pull petadimensionlab/docker_functree2
 ```
 
 #### docker run
 
 ```
-docker run -it --name "test001" -v /Users/your_dir/Docker_functree2:/tmp --rm  alpinepy
+docker run -it --name container_name -v /yourlocal_dir:/tmp --rm  petadimensionlab/docker_functree2
 ```
