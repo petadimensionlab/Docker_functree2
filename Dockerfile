@@ -8,6 +8,6 @@ RUN apk --update add --no-cache \
     curl \
 && pip3 install --upgrade pip 
 
-ADD functree2_docker.py /tmp
+COPY functree2_docker.py /tmp
 
 WORKDIR /tmp
